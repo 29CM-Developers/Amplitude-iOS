@@ -7,15 +7,12 @@ let package = Package(
     name: "Amplitude",
     platforms: [
         .iOS(.v10),
-        .tvOS(.v9),
-        .macOS(.v10_10),
-        .watchOS(.v3),
     ],
     products: [
         .library(name: "Amplitude", targets: ["Amplitude"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/amplitude/analytics-connector-ios.git", from: "1.0.0")
+        .package(url: "https://github.com/29CM-Developers/analytics-connector-ios", from: "v1.0.3-29cm")
     ],
     targets: [
         .target(
