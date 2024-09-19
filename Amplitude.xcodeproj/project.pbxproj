@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1213D89B24176E4700300E98 /* AmplitudeFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 1213D89824176E4700300E98 /* AmplitudeFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1213D89C24176E4700300E98 /* AmplitudeFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 1213D89824176E4700300E98 /* AmplitudeFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1213D89D24176E4700300E98 /* AmplitudeFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 1213D89824176E4700300E98 /* AmplitudeFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1279F8F125244E8D003DCE07 /* AMPConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1279F8C525244D78003DCE07 /* AMPConfigManager.m */; };
 		1279F8F225244E8D003DCE07 /* AMPDeviceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 1279F8C225244D78003DCE07 /* AMPDeviceInfo.h */; };
 		1279F8F325244E8D003DCE07 /* AMPIdentify.h in Headers */ = {isa = PBXBuildFile; fileRef = 1279F8C125244D78003DCE07 /* AMPIdentify.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -32,216 +30,35 @@
 		1279F90625244E8D003DCE07 /* AMPConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 1279F8E625244D78003DCE07 /* AMPConstants.m */; };
 		1279F90725244E8D003DCE07 /* AMPDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1279F8D525244D78003DCE07 /* AMPDeviceInfo.m */; };
 		1279F90825244E8D003DCE07 /* AMPDatabaseHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1279F8D425244D78003DCE07 /* AMPDatabaseHelper.m */; };
-		1279F90F25244E8E003DCE07 /* AMPConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1279F8C525244D78003DCE07 /* AMPConfigManager.m */; };
-		1279F91025244E8E003DCE07 /* AMPDeviceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 1279F8C225244D78003DCE07 /* AMPDeviceInfo.h */; };
-		1279F91125244E8E003DCE07 /* AMPIdentify.h in Headers */ = {isa = PBXBuildFile; fileRef = 1279F8C125244D78003DCE07 /* AMPIdentify.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1279F91225244E8E003DCE07 /* Amplitude+SSLPinning.h in Headers */ = {isa = PBXBuildFile; fileRef = 1279F8D925244D78003DCE07 /* Amplitude+SSLPinning.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1279F91325244E8E003DCE07 /* AMPURLSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 1279F8E825244D78003DCE07 /* AMPURLSession.h */; };
-		1279F91425244E8E003DCE07 /* AmplitudePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1279F8D825244D78003DCE07 /* AmplitudePrivate.h */; };
-		1279F91525244E8E003DCE07 /* AMPConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 1279F8C625244D78003DCE07 /* AMPConstants.h */; };
-		1279F91625244E8E003DCE07 /* AMPUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 1279F8E725244D78003DCE07 /* AMPUtils.h */; };
-		1279F91725244E8E003DCE07 /* AMPConfigManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1279F8E525244D78003DCE07 /* AMPConfigManager.h */; };
-		1279F91825244E8E003DCE07 /* Amplitude.h in Headers */ = {isa = PBXBuildFile; fileRef = 1279F8D325244D78003DCE07 /* Amplitude.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1279F91925244E8E003DCE07 /* AMPTrackingOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1279F8E925244D78003DCE07 /* AMPTrackingOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1279F91A25244E8E003DCE07 /* AMPUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1279F8C425244D78003DCE07 /* AMPUtils.m */; };
-		1279F91B25244E8E003DCE07 /* AMPIdentify.m in Sources */ = {isa = PBXBuildFile; fileRef = 1279F8D625244D78003DCE07 /* AMPIdentify.m */; };
-		1279F91C25244E8E003DCE07 /* AMPRevenue.m in Sources */ = {isa = PBXBuildFile; fileRef = 1279F8C725244D78003DCE07 /* AMPRevenue.m */; };
-		1279F91D25244E8E003DCE07 /* AMPTrackingOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1279F8D025244D78003DCE07 /* AMPTrackingOptions.m */; };
-		1279F91F25244E8E003DCE07 /* AMPURLSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 1279F8D125244D78003DCE07 /* AMPURLSession.m */; };
-		1279F92025244E8E003DCE07 /* AMPDatabaseHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 1279F8C325244D78003DCE07 /* AMPDatabaseHelper.h */; };
-		1279F92225244E8E003DCE07 /* Amplitude.m in Sources */ = {isa = PBXBuildFile; fileRef = 1279F8EA25244D78003DCE07 /* Amplitude.m */; };
-		1279F92325244E8E003DCE07 /* AMPRevenue.h in Headers */ = {isa = PBXBuildFile; fileRef = 1279F8DA25244D78003DCE07 /* AMPRevenue.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1279F92425244E8E003DCE07 /* AMPConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 1279F8E625244D78003DCE07 /* AMPConstants.m */; };
-		1279F92525244E8E003DCE07 /* AMPDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1279F8D525244D78003DCE07 /* AMPDeviceInfo.m */; };
-		1279F92625244E8E003DCE07 /* AMPDatabaseHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1279F8D425244D78003DCE07 /* AMPDatabaseHelper.m */; };
-		1279F92D25244E8F003DCE07 /* AMPConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1279F8C525244D78003DCE07 /* AMPConfigManager.m */; };
-		1279F92E25244E8F003DCE07 /* AMPDeviceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 1279F8C225244D78003DCE07 /* AMPDeviceInfo.h */; };
-		1279F92F25244E8F003DCE07 /* AMPIdentify.h in Headers */ = {isa = PBXBuildFile; fileRef = 1279F8C125244D78003DCE07 /* AMPIdentify.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1279F93025244E8F003DCE07 /* Amplitude+SSLPinning.h in Headers */ = {isa = PBXBuildFile; fileRef = 1279F8D925244D78003DCE07 /* Amplitude+SSLPinning.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1279F93125244E8F003DCE07 /* AMPURLSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 1279F8E825244D78003DCE07 /* AMPURLSession.h */; };
-		1279F93225244E8F003DCE07 /* AmplitudePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1279F8D825244D78003DCE07 /* AmplitudePrivate.h */; };
-		1279F93325244E8F003DCE07 /* AMPConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 1279F8C625244D78003DCE07 /* AMPConstants.h */; };
-		1279F93425244E8F003DCE07 /* AMPUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 1279F8E725244D78003DCE07 /* AMPUtils.h */; };
-		1279F93525244E8F003DCE07 /* AMPConfigManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1279F8E525244D78003DCE07 /* AMPConfigManager.h */; };
-		1279F93625244E8F003DCE07 /* Amplitude.h in Headers */ = {isa = PBXBuildFile; fileRef = 1279F8D325244D78003DCE07 /* Amplitude.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1279F93725244E8F003DCE07 /* AMPTrackingOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1279F8E925244D78003DCE07 /* AMPTrackingOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1279F93825244E8F003DCE07 /* AMPUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1279F8C425244D78003DCE07 /* AMPUtils.m */; };
-		1279F93925244E8F003DCE07 /* AMPIdentify.m in Sources */ = {isa = PBXBuildFile; fileRef = 1279F8D625244D78003DCE07 /* AMPIdentify.m */; };
-		1279F93A25244E8F003DCE07 /* AMPRevenue.m in Sources */ = {isa = PBXBuildFile; fileRef = 1279F8C725244D78003DCE07 /* AMPRevenue.m */; };
-		1279F93B25244E8F003DCE07 /* AMPTrackingOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1279F8D025244D78003DCE07 /* AMPTrackingOptions.m */; };
-		1279F93D25244E8F003DCE07 /* AMPURLSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 1279F8D125244D78003DCE07 /* AMPURLSession.m */; };
-		1279F93E25244E8F003DCE07 /* AMPDatabaseHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 1279F8C325244D78003DCE07 /* AMPDatabaseHelper.h */; };
-		1279F94025244E8F003DCE07 /* Amplitude.m in Sources */ = {isa = PBXBuildFile; fileRef = 1279F8EA25244D78003DCE07 /* Amplitude.m */; };
-		1279F94125244E8F003DCE07 /* AMPRevenue.h in Headers */ = {isa = PBXBuildFile; fileRef = 1279F8DA25244D78003DCE07 /* AMPRevenue.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1279F94225244E8F003DCE07 /* AMPConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 1279F8E625244D78003DCE07 /* AMPConstants.m */; };
-		1279F94325244E8F003DCE07 /* AMPDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1279F8D525244D78003DCE07 /* AMPDeviceInfo.m */; };
-		1279F94425244E8F003DCE07 /* AMPDatabaseHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1279F8D425244D78003DCE07 /* AMPDatabaseHelper.m */; };
 		1279FA6E2525949D003DCE07 /* ISPCertificatePinning.m in Sources */ = {isa = PBXBuildFile; fileRef = 1279FA682525949D003DCE07 /* ISPCertificatePinning.m */; };
-		1279FA6F2525949D003DCE07 /* ISPCertificatePinning.m in Sources */ = {isa = PBXBuildFile; fileRef = 1279FA682525949D003DCE07 /* ISPCertificatePinning.m */; };
-		1279FA702525949D003DCE07 /* ISPCertificatePinning.m in Sources */ = {isa = PBXBuildFile; fileRef = 1279FA682525949D003DCE07 /* ISPCertificatePinning.m */; };
 		1279FA772525949D003DCE07 /* ISPPinnedNSURLSessionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1279FA6B2525949D003DCE07 /* ISPPinnedNSURLSessionDelegate.m */; };
-		1279FA782525949D003DCE07 /* ISPPinnedNSURLSessionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1279FA6B2525949D003DCE07 /* ISPPinnedNSURLSessionDelegate.m */; };
-		1279FA792525949D003DCE07 /* ISPPinnedNSURLSessionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1279FA6B2525949D003DCE07 /* ISPPinnedNSURLSessionDelegate.m */; };
 		1279FA7A2525949D003DCE07 /* ISPPinnedNSURLSessionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1279FA6C2525949D003DCE07 /* ISPPinnedNSURLSessionDelegate.h */; };
-		1279FA7B2525949D003DCE07 /* ISPPinnedNSURLSessionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1279FA6C2525949D003DCE07 /* ISPPinnedNSURLSessionDelegate.h */; };
-		1279FA7C2525949D003DCE07 /* ISPPinnedNSURLSessionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1279FA6C2525949D003DCE07 /* ISPPinnedNSURLSessionDelegate.h */; };
 		1279FA7D2525949D003DCE07 /* ISPCertificatePinning.h in Headers */ = {isa = PBXBuildFile; fileRef = 1279FA6D2525949D003DCE07 /* ISPCertificatePinning.h */; };
-		1279FA7E2525949D003DCE07 /* ISPCertificatePinning.h in Headers */ = {isa = PBXBuildFile; fileRef = 1279FA6D2525949D003DCE07 /* ISPCertificatePinning.h */; };
-		1279FA7F2525949D003DCE07 /* ISPCertificatePinning.h in Headers */ = {isa = PBXBuildFile; fileRef = 1279FA6D2525949D003DCE07 /* ISPCertificatePinning.h */; };
-		12C972B824105B2C00E9CDDB /* Amplitude.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12C972AF24105B2C00E9CDDB /* Amplitude.framework */; };
-		12C972D424105C3600E9CDDB /* Amplitude.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12C972CB24105C3600E9CDDB /* Amplitude.framework */; };
-		12C972F024105C6500E9CDDB /* Amplitude.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12C972E724105C6500E9CDDB /* Amplitude.framework */; };
 		207C960927AB0F65008EE143 /* AnalyticsConnector.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 207C960827AB0F65008EE143 /* AnalyticsConnector.xcframework */; };
-		207C961127AB0F6A008EE143 /* AnalyticsConnector.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 207C960827AB0F65008EE143 /* AnalyticsConnector.xcframework */; };
-		207C961927AB0F6E008EE143 /* AnalyticsConnector.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 207C960827AB0F65008EE143 /* AnalyticsConnector.xcframework */; };
-		207C962127AB0F72008EE143 /* AnalyticsConnector.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 207C960827AB0F65008EE143 /* AnalyticsConnector.xcframework */; };
 		3E2411E726F9A40100793829 /* AMPPlan.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E2411E626F9A40100793829 /* AMPPlan.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3E2411E826F9A40100793829 /* AMPPlan.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E2411E626F9A40100793829 /* AMPPlan.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3E2411E926F9A40100793829 /* AMPPlan.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E2411E626F9A40100793829 /* AMPPlan.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3E2411EA26F9A40100793829 /* AMPPlan.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E2411E626F9A40100793829 /* AMPPlan.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3E2411EC26F9A46500793829 /* AMPPlan.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2411EB26F9A46500793829 /* AMPPlan.m */; };
-		3E2411ED26F9A46500793829 /* AMPPlan.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2411EB26F9A46500793829 /* AMPPlan.m */; };
-		3E2411EE26F9A46500793829 /* AMPPlan.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2411EB26F9A46500793829 /* AMPPlan.m */; };
-		3E2411EF26F9A46500793829 /* AMPPlan.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2411EB26F9A46500793829 /* AMPPlan.m */; };
 		3EF608C92720E74D00133703 /* AMPServerZone.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EF608C82720E74D00133703 /* AMPServerZone.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3EF608CA2720E74D00133703 /* AMPServerZone.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EF608C82720E74D00133703 /* AMPServerZone.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3EF608CB2720E74D00133703 /* AMPServerZone.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EF608C82720E74D00133703 /* AMPServerZone.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3EF608CC2720E74D00133703 /* AMPServerZone.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EF608C82720E74D00133703 /* AMPServerZone.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3EF608D32720F52400133703 /* AMPServerZoneUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EF608D22720F52400133703 /* AMPServerZoneUtil.h */; };
-		3EF608D42720F52400133703 /* AMPServerZoneUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EF608D22720F52400133703 /* AMPServerZoneUtil.h */; };
-		3EF608D52720F52400133703 /* AMPServerZoneUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EF608D22720F52400133703 /* AMPServerZoneUtil.h */; };
-		3EF608D62720F52400133703 /* AMPServerZoneUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EF608D22720F52400133703 /* AMPServerZoneUtil.h */; };
 		3EF608D82720F64500133703 /* AMPServerZoneUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF608D72720F64500133703 /* AMPServerZoneUtil.m */; };
-		3EF608D92720F64500133703 /* AMPServerZoneUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF608D72720F64500133703 /* AMPServerZoneUtil.m */; };
-		3EF608DA2720F64500133703 /* AMPServerZoneUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF608D72720F64500133703 /* AMPServerZoneUtil.m */; };
-		3EF608DB2720F64500133703 /* AMPServerZoneUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF608D72720F64500133703 /* AMPServerZoneUtil.m */; };
 		3EF608E52724BFB700133703 /* AMPMiddleware.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EF608E42724BFB700133703 /* AMPMiddleware.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3EF608E62724BFB700133703 /* AMPMiddleware.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EF608E42724BFB700133703 /* AMPMiddleware.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3EF608E72724BFB700133703 /* AMPMiddleware.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EF608E42724BFB700133703 /* AMPMiddleware.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3EF608E82724BFB700133703 /* AMPMiddleware.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EF608E42724BFB700133703 /* AMPMiddleware.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3EF608EA2726244300133703 /* AMPMiddlewareRunner.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EF608E92726244300133703 /* AMPMiddlewareRunner.h */; };
-		3EF608EB2726244300133703 /* AMPMiddlewareRunner.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EF608E92726244300133703 /* AMPMiddlewareRunner.h */; };
-		3EF608EC2726244300133703 /* AMPMiddlewareRunner.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EF608E92726244300133703 /* AMPMiddlewareRunner.h */; };
-		3EF608ED2726244300133703 /* AMPMiddlewareRunner.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EF608E92726244300133703 /* AMPMiddlewareRunner.h */; };
 		3EF608EF2726256800133703 /* AMPMiddlewareRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF608EE2726256800133703 /* AMPMiddlewareRunner.m */; };
-		3EF608F02726256800133703 /* AMPMiddlewareRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF608EE2726256800133703 /* AMPMiddlewareRunner.m */; };
-		3EF608F12726256800133703 /* AMPMiddlewareRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF608EE2726256800133703 /* AMPMiddlewareRunner.m */; };
-		3EF608F22726256800133703 /* AMPMiddlewareRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF608EE2726256800133703 /* AMPMiddlewareRunner.m */; };
 		3EF6090227267C9800133703 /* AMPMiddleware.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF6090127267C9800133703 /* AMPMiddleware.m */; };
-		3EF6090327267C9800133703 /* AMPMiddleware.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF6090127267C9800133703 /* AMPMiddleware.m */; };
-		3EF6090427267C9800133703 /* AMPMiddleware.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF6090127267C9800133703 /* AMPMiddleware.m */; };
-		3EF6090527267C9800133703 /* AMPMiddleware.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF6090127267C9800133703 /* AMPMiddleware.m */; };
 		581FCD8F2A4D2A5C00AB0626 /* UIViewController+AMPScreen.h in Headers */ = {isa = PBXBuildFile; fileRef = 581FCD8D2A4D2A5C00AB0626 /* UIViewController+AMPScreen.h */; };
-		581FCD902A4D2A5C00AB0626 /* UIViewController+AMPScreen.h in Headers */ = {isa = PBXBuildFile; fileRef = 581FCD8D2A4D2A5C00AB0626 /* UIViewController+AMPScreen.h */; };
-		581FCD912A4D2A5C00AB0626 /* UIViewController+AMPScreen.h in Headers */ = {isa = PBXBuildFile; fileRef = 581FCD8D2A4D2A5C00AB0626 /* UIViewController+AMPScreen.h */; };
-		581FCD922A4D2A5C00AB0626 /* UIViewController+AMPScreen.h in Headers */ = {isa = PBXBuildFile; fileRef = 581FCD8D2A4D2A5C00AB0626 /* UIViewController+AMPScreen.h */; };
 		581FCD932A4D2A5C00AB0626 /* UIViewController+AMPScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 581FCD8E2A4D2A5C00AB0626 /* UIViewController+AMPScreen.m */; };
-		581FCD942A4D2A5C00AB0626 /* UIViewController+AMPScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 581FCD8E2A4D2A5C00AB0626 /* UIViewController+AMPScreen.m */; };
-		581FCD952A4D2A5C00AB0626 /* UIViewController+AMPScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 581FCD8E2A4D2A5C00AB0626 /* UIViewController+AMPScreen.m */; };
-		581FCD962A4D2A5C00AB0626 /* UIViewController+AMPScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 581FCD8E2A4D2A5C00AB0626 /* UIViewController+AMPScreen.m */; };
 		582516E228C048D600ECAD0D /* AMPIngestionMetadata.h in Headers */ = {isa = PBXBuildFile; fileRef = 582516E128C048D600ECAD0D /* AMPIngestionMetadata.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		582516E328C048D600ECAD0D /* AMPIngestionMetadata.h in Headers */ = {isa = PBXBuildFile; fileRef = 582516E128C048D600ECAD0D /* AMPIngestionMetadata.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		582516E428C048D600ECAD0D /* AMPIngestionMetadata.h in Headers */ = {isa = PBXBuildFile; fileRef = 582516E128C048D600ECAD0D /* AMPIngestionMetadata.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		582516E528C048D600ECAD0D /* AMPIngestionMetadata.h in Headers */ = {isa = PBXBuildFile; fileRef = 582516E128C048D600ECAD0D /* AMPIngestionMetadata.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		582516E728C048E700ECAD0D /* AMPIngestionMetadata.m in Sources */ = {isa = PBXBuildFile; fileRef = 582516E628C048E700ECAD0D /* AMPIngestionMetadata.m */; };
-		582516E828C048E700ECAD0D /* AMPIngestionMetadata.m in Sources */ = {isa = PBXBuildFile; fileRef = 582516E628C048E700ECAD0D /* AMPIngestionMetadata.m */; };
-		582516E928C048E700ECAD0D /* AMPIngestionMetadata.m in Sources */ = {isa = PBXBuildFile; fileRef = 582516E628C048E700ECAD0D /* AMPIngestionMetadata.m */; };
-		582516EA28C048E700ECAD0D /* AMPIngestionMetadata.m in Sources */ = {isa = PBXBuildFile; fileRef = 582516E628C048E700ECAD0D /* AMPIngestionMetadata.m */; };
 		58B7FACB2A3BD71F00CC5BB4 /* AMPDefaultTrackingOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 58B7FACA2A3BD71F00CC5BB4 /* AMPDefaultTrackingOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		58B7FACC2A3BD71F00CC5BB4 /* AMPDefaultTrackingOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 58B7FACA2A3BD71F00CC5BB4 /* AMPDefaultTrackingOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		58B7FACD2A3BD71F00CC5BB4 /* AMPDefaultTrackingOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 58B7FACA2A3BD71F00CC5BB4 /* AMPDefaultTrackingOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		58B7FACE2A3BD71F00CC5BB4 /* AMPDefaultTrackingOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 58B7FACA2A3BD71F00CC5BB4 /* AMPDefaultTrackingOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		58B7FAD02A3CDC7E00CC5BB4 /* AMPDefaultTrackingOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B7FACF2A3CDC7E00CC5BB4 /* AMPDefaultTrackingOptions.m */; };
-		58B7FAD12A3CDC7E00CC5BB4 /* AMPDefaultTrackingOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B7FACF2A3CDC7E00CC5BB4 /* AMPDefaultTrackingOptions.m */; };
-		58B7FAD22A3CDC7E00CC5BB4 /* AMPDefaultTrackingOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B7FACF2A3CDC7E00CC5BB4 /* AMPDefaultTrackingOptions.m */; };
-		58B7FAD32A3CDC7E00CC5BB4 /* AMPDefaultTrackingOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B7FACF2A3CDC7E00CC5BB4 /* AMPDefaultTrackingOptions.m */; };
 		58E4B1BC287F62C3007AC408 /* AmazonRootCA1.cer in Resources */ = {isa = PBXBuildFile; fileRef = 58E4B1BB287F62C3007AC408 /* AmazonRootCA1.cer */; };
-		58E4B1BD287F62C3007AC408 /* AmazonRootCA1.cer in Resources */ = {isa = PBXBuildFile; fileRef = 58E4B1BB287F62C3007AC408 /* AmazonRootCA1.cer */; };
-		58E4B1BE287F62C3007AC408 /* AmazonRootCA1.cer in Resources */ = {isa = PBXBuildFile; fileRef = 58E4B1BB287F62C3007AC408 /* AmazonRootCA1.cer */; };
-		58E4B1BF287F62C3007AC408 /* AmazonRootCA1.cer in Resources */ = {isa = PBXBuildFile; fileRef = 58E4B1BB287F62C3007AC408 /* AmazonRootCA1.cer */; };
-		6B5494D6E33DC145D9B649D8 /* libPods-shared-Amplitude_tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91DADF8ED86FAA2D6B9D2E6B /* libPods-shared-Amplitude_tvOSTests.a */; };
-		759E939025FBF3DC00BF7C3D /* AMPConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1279F8C525244D78003DCE07 /* AMPConfigManager.m */; };
-		759E939125FBF3DC00BF7C3D /* AMPConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 1279F8E625244D78003DCE07 /* AMPConstants.m */; };
-		759E939225FBF3DC00BF7C3D /* AMPDatabaseHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1279F8D425244D78003DCE07 /* AMPDatabaseHelper.m */; };
-		759E939325FBF3DC00BF7C3D /* AMPDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1279F8D525244D78003DCE07 /* AMPDeviceInfo.m */; };
-		759E939425FBF3DC00BF7C3D /* AMPIdentify.m in Sources */ = {isa = PBXBuildFile; fileRef = 1279F8D625244D78003DCE07 /* AMPIdentify.m */; };
-		759E939525FBF3DC00BF7C3D /* Amplitude.m in Sources */ = {isa = PBXBuildFile; fileRef = 1279F8EA25244D78003DCE07 /* Amplitude.m */; };
-		759E939625FBF3DC00BF7C3D /* AMPRevenue.m in Sources */ = {isa = PBXBuildFile; fileRef = 1279F8C725244D78003DCE07 /* AMPRevenue.m */; };
-		759E939725FBF3DC00BF7C3D /* AMPTrackingOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1279F8D025244D78003DCE07 /* AMPTrackingOptions.m */; };
-		759E939925FBF3DC00BF7C3D /* AMPURLSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 1279F8D125244D78003DCE07 /* AMPURLSession.m */; };
-		759E939A25FBF3DC00BF7C3D /* AMPUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1279F8C425244D78003DCE07 /* AMPUtils.m */; };
-		759E939B25FBF3DC00BF7C3D /* ISPCertificatePinning.m in Sources */ = {isa = PBXBuildFile; fileRef = 1279FA682525949D003DCE07 /* ISPCertificatePinning.m */; };
-		759E939D25FBF3DC00BF7C3D /* ISPPinnedNSURLSessionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1279FA6B2525949D003DCE07 /* ISPPinnedNSURLSessionDelegate.m */; };
-		759E93A525FBF44500BF7C3D /* AMPConfigManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1279F8E525244D78003DCE07 /* AMPConfigManager.h */; };
-		759E93A625FBF44500BF7C3D /* AMPConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 1279F8C625244D78003DCE07 /* AMPConstants.h */; };
-		759E93A725FBF44500BF7C3D /* AMPDatabaseHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 1279F8C325244D78003DCE07 /* AMPDatabaseHelper.h */; };
-		759E93A825FBF44500BF7C3D /* AMPDeviceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 1279F8C225244D78003DCE07 /* AMPDeviceInfo.h */; };
-		759E93A925FBF44500BF7C3D /* AMPIdentify.h in Headers */ = {isa = PBXBuildFile; fileRef = 1279F8C125244D78003DCE07 /* AMPIdentify.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		759E93AA25FBF44500BF7C3D /* Amplitude.h in Headers */ = {isa = PBXBuildFile; fileRef = 1279F8D325244D78003DCE07 /* Amplitude.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		759E93AB25FBF44500BF7C3D /* Amplitude+SSLPinning.h in Headers */ = {isa = PBXBuildFile; fileRef = 1279F8D925244D78003DCE07 /* Amplitude+SSLPinning.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		759E93AC25FBF44500BF7C3D /* AmplitudePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1279F8D825244D78003DCE07 /* AmplitudePrivate.h */; };
-		759E93AD25FBF44500BF7C3D /* AMPRevenue.h in Headers */ = {isa = PBXBuildFile; fileRef = 1279F8DA25244D78003DCE07 /* AMPRevenue.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		759E93AE25FBF44500BF7C3D /* AMPTrackingOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1279F8E925244D78003DCE07 /* AMPTrackingOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		759E93B025FBF44500BF7C3D /* AMPURLSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 1279F8E825244D78003DCE07 /* AMPURLSession.h */; };
-		759E93B125FBF44500BF7C3D /* AMPUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 1279F8E725244D78003DCE07 /* AMPUtils.h */; };
-		759E93B225FBF44500BF7C3D /* ISPCertificatePinning.h in Headers */ = {isa = PBXBuildFile; fileRef = 1279FA6D2525949D003DCE07 /* ISPCertificatePinning.h */; };
-		759E93B425FBF44500BF7C3D /* ISPPinnedNSURLSessionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1279FA6C2525949D003DCE07 /* ISPPinnedNSURLSessionDelegate.h */; };
-		759E93BC25FBF4B600BF7C3D /* AmplitudeFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 1213D89824176E4700300E98 /* AmplitudeFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		759E93DC25FBF6F700BF7C3D /* AMPBackgroundNotifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 759E93DA25FBF6F700BF7C3D /* AMPBackgroundNotifier.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		759E93DD25FBF6F700BF7C3D /* AMPBackgroundNotifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 759E93DB25FBF6F700BF7C3D /* AMPBackgroundNotifier.m */; };
-		759E940925FBFE7700BF7C3D /* AMPBackgroundNotifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 759E93DB25FBF6F700BF7C3D /* AMPBackgroundNotifier.m */; };
-		759E941125FBFE7800BF7C3D /* AMPBackgroundNotifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 759E93DB25FBF6F700BF7C3D /* AMPBackgroundNotifier.m */; };
 		759E941925FBFE7900BF7C3D /* AMPBackgroundNotifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 759E93DB25FBF6F700BF7C3D /* AMPBackgroundNotifier.m */; };
 		759E942125FBFE9200BF7C3D /* AMPBackgroundNotifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 759E93DA25FBF6F700BF7C3D /* AMPBackgroundNotifier.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		759E942925FBFE9600BF7C3D /* AMPBackgroundNotifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 759E93DA25FBF6F700BF7C3D /* AMPBackgroundNotifier.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		759E943125FBFEA200BF7C3D /* AMPBackgroundNotifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 759E93DA25FBF6F700BF7C3D /* AMPBackgroundNotifier.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D00A34DB298DA0EC00BA484F /* AMPIdentifyInterceptor.h in Headers */ = {isa = PBXBuildFile; fileRef = D00A34D7298DA0EB00BA484F /* AMPIdentifyInterceptor.h */; };
-		D00A34DC298DA0EC00BA484F /* AMPIdentifyInterceptor.h in Headers */ = {isa = PBXBuildFile; fileRef = D00A34D7298DA0EB00BA484F /* AMPIdentifyInterceptor.h */; };
-		D00A34DD298DA0EC00BA484F /* AMPIdentifyInterceptor.h in Headers */ = {isa = PBXBuildFile; fileRef = D00A34D7298DA0EB00BA484F /* AMPIdentifyInterceptor.h */; };
-		D00A34DE298DA0EC00BA484F /* AMPIdentifyInterceptor.h in Headers */ = {isa = PBXBuildFile; fileRef = D00A34D7298DA0EB00BA484F /* AMPIdentifyInterceptor.h */; };
 		D00A34DF298DA0EC00BA484F /* AMPEventUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = D00A34D8298DA0EB00BA484F /* AMPEventUtils.h */; };
-		D00A34E0298DA0EC00BA484F /* AMPEventUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = D00A34D8298DA0EB00BA484F /* AMPEventUtils.h */; };
-		D00A34E1298DA0EC00BA484F /* AMPEventUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = D00A34D8298DA0EB00BA484F /* AMPEventUtils.h */; };
-		D00A34E2298DA0EC00BA484F /* AMPEventUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = D00A34D8298DA0EB00BA484F /* AMPEventUtils.h */; };
 		D00A34E3298DA0EC00BA484F /* AMPIdentifyInterceptor.m in Sources */ = {isa = PBXBuildFile; fileRef = D00A34D9298DA0EB00BA484F /* AMPIdentifyInterceptor.m */; };
-		D00A34E4298DA0EC00BA484F /* AMPIdentifyInterceptor.m in Sources */ = {isa = PBXBuildFile; fileRef = D00A34D9298DA0EB00BA484F /* AMPIdentifyInterceptor.m */; };
-		D00A34E5298DA0EC00BA484F /* AMPIdentifyInterceptor.m in Sources */ = {isa = PBXBuildFile; fileRef = D00A34D9298DA0EB00BA484F /* AMPIdentifyInterceptor.m */; };
-		D00A34E6298DA0EC00BA484F /* AMPIdentifyInterceptor.m in Sources */ = {isa = PBXBuildFile; fileRef = D00A34D9298DA0EB00BA484F /* AMPIdentifyInterceptor.m */; };
 		D00A34E7298DA0EC00BA484F /* AMPEventUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = D00A34DA298DA0EB00BA484F /* AMPEventUtils.m */; };
-		D00A34E8298DA0EC00BA484F /* AMPEventUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = D00A34DA298DA0EB00BA484F /* AMPEventUtils.m */; };
-		D00A34E9298DA0EC00BA484F /* AMPEventUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = D00A34DA298DA0EB00BA484F /* AMPEventUtils.m */; };
-		D00A34EA298DA0EC00BA484F /* AMPEventUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = D00A34DA298DA0EB00BA484F /* AMPEventUtils.m */; };
 		DC927E962616400800A708B0 /* ComodoRsaDomainValidationCA.der in Resources */ = {isa = PBXBuildFile; fileRef = DC927E952616400800A708B0 /* ComodoRsaDomainValidationCA.der */; };
-		DC927E972616400800A708B0 /* ComodoRsaDomainValidationCA.der in Resources */ = {isa = PBXBuildFile; fileRef = DC927E952616400800A708B0 /* ComodoRsaDomainValidationCA.der */; };
-		DC927E982616400800A708B0 /* ComodoRsaDomainValidationCA.der in Resources */ = {isa = PBXBuildFile; fileRef = DC927E952616400800A708B0 /* ComodoRsaDomainValidationCA.der */; };
-		DC927E992616400800A708B0 /* ComodoRsaDomainValidationCA.der in Resources */ = {isa = PBXBuildFile; fileRef = DC927E952616400800A708B0 /* ComodoRsaDomainValidationCA.der */; };
-		E94A3006F3D46C0C8F44DC94 /* libPods-shared-Amplitude_iOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E2467100EE86AF0108A37E87 /* libPods-shared-Amplitude_iOSTests.a */; };
-		E9A3F8AEAC5FC48FC69F9A94 /* libPods-shared-Amplitude_macOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 34AEC32F041BAE8D221ED0B3 /* libPods-shared-Amplitude_macOSTests.a */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		12C972B924105B2C00E9CDDB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E98C051B1A48E7FE00800C63 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 12C972AE24105B2C00E9CDDB;
-			remoteInfo = Amplitude_tvOS;
-		};
-		12C972D524105C3600E9CDDB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E98C051B1A48E7FE00800C63 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 12C972CA24105C3600E9CDDB;
-			remoteInfo = Amplitude_iOS;
-		};
-		12C972F124105C6500E9CDDB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E98C051B1A48E7FE00800C63 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 12C972E624105C6500E9CDDB;
-			remoteInfo = Amplitude_macOS;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		01E5E27777EE3748AD590817 /* Pods-shared-Amplitude_macOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shared-Amplitude_macOSTests.release.xcconfig"; path = "Target Support Files/Pods-shared-Amplitude_macOSTests/Pods-shared-Amplitude_macOSTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -279,12 +96,7 @@
 		1279FA6B2525949D003DCE07 /* ISPPinnedNSURLSessionDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISPPinnedNSURLSessionDelegate.m; sourceTree = "<group>"; };
 		1279FA6C2525949D003DCE07 /* ISPPinnedNSURLSessionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISPPinnedNSURLSessionDelegate.h; sourceTree = "<group>"; };
 		1279FA6D2525949D003DCE07 /* ISPCertificatePinning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISPCertificatePinning.h; sourceTree = "<group>"; };
-		12C972AF24105B2C00E9CDDB /* Amplitude.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Amplitude.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		12C972B724105B2C00E9CDDB /* Amplitude_tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Amplitude_tvOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12C972CB24105C3600E9CDDB /* Amplitude.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Amplitude.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		12C972D324105C3600E9CDDB /* Amplitude_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Amplitude_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		12C972E724105C6500E9CDDB /* Amplitude.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Amplitude.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		12C972EF24105C6500E9CDDB /* Amplitude_macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Amplitude_macOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12D0A22B241A0A960072CB4C /* Amplitude.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = Amplitude.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		12D0A22D241A134D0072CB4C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		12D0A22E241A13950072CB4C /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
@@ -313,7 +125,6 @@
 		58E4B1BB287F62C3007AC408 /* AmazonRootCA1.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = AmazonRootCA1.cer; sourceTree = "<group>"; };
 		6C55E7B2C7CB09D0EDC07910 /* Pods-shared-Amplitude_iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shared-Amplitude_iOSTests.release.xcconfig"; path = "Target Support Files/Pods-shared-Amplitude_iOSTests/Pods-shared-Amplitude_iOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		70CE71E7AEFA4FE3E4F565AD /* Pods-shared-Amplitude_iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shared-Amplitude_iOSTests.debug.xcconfig"; path = "Target Support Files/Pods-shared-Amplitude_iOSTests/Pods-shared-Amplitude_iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		759E937A25FBF2BB00BF7C3D /* Amplitude.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Amplitude.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		759E93DA25FBF6F700BF7C3D /* AMPBackgroundNotifier.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMPBackgroundNotifier.h; sourceTree = "<group>"; };
 		759E93DB25FBF6F700BF7C3D /* AMPBackgroundNotifier.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMPBackgroundNotifier.m; sourceTree = "<group>"; };
 		91DADF8ED86FAA2D6B9D2E6B /* libPods-shared-Amplitude_tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-shared-Amplitude_tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -326,62 +137,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		12C972AC24105B2C00E9CDDB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				207C961127AB0F6A008EE143 /* AnalyticsConnector.xcframework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		12C972B424105B2C00E9CDDB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				12C972B824105B2C00E9CDDB /* Amplitude.framework in Frameworks */,
-				6B5494D6E33DC145D9B649D8 /* libPods-shared-Amplitude_tvOSTests.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		12C972C824105C3600E9CDDB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				207C960927AB0F65008EE143 /* AnalyticsConnector.xcframework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		12C972D024105C3600E9CDDB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				12C972D424105C3600E9CDDB /* Amplitude.framework in Frameworks */,
-				E94A3006F3D46C0C8F44DC94 /* libPods-shared-Amplitude_iOSTests.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		12C972E424105C6500E9CDDB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				207C961927AB0F6E008EE143 /* AnalyticsConnector.xcframework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		12C972EC24105C6500E9CDDB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				12C972F024105C6500E9CDDB /* Amplitude.framework in Frameworks */,
-				E9A3F8AEAC5FC48FC69F9A94 /* libPods-shared-Amplitude_macOSTests.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		759E937725FBF2BB00BF7C3D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				207C962127AB0F72008EE143 /* AnalyticsConnector.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -550,13 +310,7 @@
 		E98C05241A48E7FE00800C63 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				12C972AF24105B2C00E9CDDB /* Amplitude.framework */,
-				12C972B724105B2C00E9CDDB /* Amplitude_tvOSTests.xctest */,
 				12C972CB24105C3600E9CDDB /* Amplitude.framework */,
-				12C972D324105C3600E9CDDB /* Amplitude_iOSTests.xctest */,
-				12C972E724105C6500E9CDDB /* Amplitude.framework */,
-				12C972EF24105C6500E9CDDB /* Amplitude_macOSTests.xctest */,
-				759E937A25FBF2BB00BF7C3D /* Amplitude.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -564,39 +318,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		12C972AA24105B2C00E9CDDB /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				759E942925FBFE9600BF7C3D /* AMPBackgroundNotifier.h in Headers */,
-				3EF608E62724BFB700133703 /* AMPMiddleware.h in Headers */,
-				3E2411E826F9A40100793829 /* AMPPlan.h in Headers */,
-				1279FA7E2525949D003DCE07 /* ISPCertificatePinning.h in Headers */,
-				1213D89C24176E4700300E98 /* AmplitudeFramework.h in Headers */,
-				1279F91225244E8E003DCE07 /* Amplitude+SSLPinning.h in Headers */,
-				D00A34E0298DA0EC00BA484F /* AMPEventUtils.h in Headers */,
-				1279FA7B2525949D003DCE07 /* ISPPinnedNSURLSessionDelegate.h in Headers */,
-				3EF608CA2720E74D00133703 /* AMPServerZone.h in Headers */,
-				1279F91825244E8E003DCE07 /* Amplitude.h in Headers */,
-				1279F91525244E8E003DCE07 /* AMPConstants.h in Headers */,
-				3EF608EB2726244300133703 /* AMPMiddlewareRunner.h in Headers */,
-				1279F91925244E8E003DCE07 /* AMPTrackingOptions.h in Headers */,
-				1279F91425244E8E003DCE07 /* AmplitudePrivate.h in Headers */,
-				3EF608D42720F52400133703 /* AMPServerZoneUtil.h in Headers */,
-				1279F92325244E8E003DCE07 /* AMPRevenue.h in Headers */,
-				1279F91325244E8E003DCE07 /* AMPURLSession.h in Headers */,
-				D00A34DC298DA0EC00BA484F /* AMPIdentifyInterceptor.h in Headers */,
-				581FCD902A4D2A5C00AB0626 /* UIViewController+AMPScreen.h in Headers */,
-				1279F91025244E8E003DCE07 /* AMPDeviceInfo.h in Headers */,
-				1279F91125244E8E003DCE07 /* AMPIdentify.h in Headers */,
-				1279F92025244E8E003DCE07 /* AMPDatabaseHelper.h in Headers */,
-				1279F91725244E8E003DCE07 /* AMPConfigManager.h in Headers */,
-				1279F91625244E8E003DCE07 /* AMPUtils.h in Headers */,
-				582516E328C048D600ECAD0D /* AMPIngestionMetadata.h in Headers */,
-				58B7FACC2A3BD71F00CC5BB4 /* AMPDefaultTrackingOptions.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		12C972C624105C3600E9CDDB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -630,112 +351,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		12C972E224105C6500E9CDDB /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1279FA7F2525949D003DCE07 /* ISPCertificatePinning.h in Headers */,
-				3EF608E72724BFB700133703 /* AMPMiddleware.h in Headers */,
-				3E2411E926F9A40100793829 /* AMPPlan.h in Headers */,
-				1213D89D24176E4700300E98 /* AmplitudeFramework.h in Headers */,
-				1279F93025244E8F003DCE07 /* Amplitude+SSLPinning.h in Headers */,
-				1279FA7C2525949D003DCE07 /* ISPPinnedNSURLSessionDelegate.h in Headers */,
-				D00A34E1298DA0EC00BA484F /* AMPEventUtils.h in Headers */,
-				1279F93625244E8F003DCE07 /* Amplitude.h in Headers */,
-				3EF608CB2720E74D00133703 /* AMPServerZone.h in Headers */,
-				1279F93325244E8F003DCE07 /* AMPConstants.h in Headers */,
-				1279F93725244E8F003DCE07 /* AMPTrackingOptions.h in Headers */,
-				3EF608EC2726244300133703 /* AMPMiddlewareRunner.h in Headers */,
-				1279F93225244E8F003DCE07 /* AmplitudePrivate.h in Headers */,
-				759E943125FBFEA200BF7C3D /* AMPBackgroundNotifier.h in Headers */,
-				3EF608D52720F52400133703 /* AMPServerZoneUtil.h in Headers */,
-				1279F94125244E8F003DCE07 /* AMPRevenue.h in Headers */,
-				1279F93125244E8F003DCE07 /* AMPURLSession.h in Headers */,
-				D00A34DD298DA0EC00BA484F /* AMPIdentifyInterceptor.h in Headers */,
-				581FCD912A4D2A5C00AB0626 /* UIViewController+AMPScreen.h in Headers */,
-				1279F92E25244E8F003DCE07 /* AMPDeviceInfo.h in Headers */,
-				1279F92F25244E8F003DCE07 /* AMPIdentify.h in Headers */,
-				1279F93E25244E8F003DCE07 /* AMPDatabaseHelper.h in Headers */,
-				1279F93525244E8F003DCE07 /* AMPConfigManager.h in Headers */,
-				1279F93425244E8F003DCE07 /* AMPUtils.h in Headers */,
-				582516E428C048D600ECAD0D /* AMPIngestionMetadata.h in Headers */,
-				58B7FACD2A3BD71F00CC5BB4 /* AMPDefaultTrackingOptions.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		759E937525FBF2BB00BF7C3D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				759E93BC25FBF4B600BF7C3D /* AmplitudeFramework.h in Headers */,
-				3EF608E82724BFB700133703 /* AMPMiddleware.h in Headers */,
-				3E2411EA26F9A40100793829 /* AMPPlan.h in Headers */,
-				759E93AB25FBF44500BF7C3D /* Amplitude+SSLPinning.h in Headers */,
-				759E93AA25FBF44500BF7C3D /* Amplitude.h in Headers */,
-				759E93AE25FBF44500BF7C3D /* AMPTrackingOptions.h in Headers */,
-				D00A34E2298DA0EC00BA484F /* AMPEventUtils.h in Headers */,
-				759E93AD25FBF44500BF7C3D /* AMPRevenue.h in Headers */,
-				3EF608CC2720E74D00133703 /* AMPServerZone.h in Headers */,
-				759E93A925FBF44500BF7C3D /* AMPIdentify.h in Headers */,
-				759E93B225FBF44500BF7C3D /* ISPCertificatePinning.h in Headers */,
-				3EF608ED2726244300133703 /* AMPMiddlewareRunner.h in Headers */,
-				759E93B425FBF44500BF7C3D /* ISPPinnedNSURLSessionDelegate.h in Headers */,
-				759E93A625FBF44500BF7C3D /* AMPConstants.h in Headers */,
-				759E93DC25FBF6F700BF7C3D /* AMPBackgroundNotifier.h in Headers */,
-				3EF608D62720F52400133703 /* AMPServerZoneUtil.h in Headers */,
-				759E93AC25FBF44500BF7C3D /* AmplitudePrivate.h in Headers */,
-				D00A34DE298DA0EC00BA484F /* AMPIdentifyInterceptor.h in Headers */,
-				581FCD922A4D2A5C00AB0626 /* UIViewController+AMPScreen.h in Headers */,
-				759E93B025FBF44500BF7C3D /* AMPURLSession.h in Headers */,
-				759E93A825FBF44500BF7C3D /* AMPDeviceInfo.h in Headers */,
-				759E93A725FBF44500BF7C3D /* AMPDatabaseHelper.h in Headers */,
-				759E93A525FBF44500BF7C3D /* AMPConfigManager.h in Headers */,
-				759E93B125FBF44500BF7C3D /* AMPUtils.h in Headers */,
-				582516E528C048D600ECAD0D /* AMPIngestionMetadata.h in Headers */,
-				58B7FACE2A3BD71F00CC5BB4 /* AMPDefaultTrackingOptions.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		12C972AE24105B2C00E9CDDB /* Amplitude_tvOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 12C972C024105B2D00E9CDDB /* Build configuration list for PBXNativeTarget "Amplitude_tvOS" */;
-			buildPhases = (
-				12C972AA24105B2C00E9CDDB /* Headers */,
-				12C972AB24105B2C00E9CDDB /* Sources */,
-				12C972AC24105B2C00E9CDDB /* Frameworks */,
-				12C972AD24105B2C00E9CDDB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Amplitude_tvOS;
-			productName = Amplitude_tvOS;
-			productReference = 12C972AF24105B2C00E9CDDB /* Amplitude.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		12C972B624105B2C00E9CDDB /* Amplitude_tvOSTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 12C972C324105B2D00E9CDDB /* Build configuration list for PBXNativeTarget "Amplitude_tvOSTests" */;
-			buildPhases = (
-				1C49508448E694B480BADCCC /* [CP] Check Pods Manifest.lock */,
-				12C972B324105B2C00E9CDDB /* Sources */,
-				12C972B424105B2C00E9CDDB /* Frameworks */,
-				12C972B524105B2C00E9CDDB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				12C972BA24105B2C00E9CDDB /* PBXTargetDependency */,
-			);
-			name = Amplitude_tvOSTests;
-			productName = Amplitude_tvOSTests;
-			productReference = 12C972B724105B2C00E9CDDB /* Amplitude_tvOSTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		12C972CA24105C3600E9CDDB /* Amplitude_iOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 12C972DC24105C3600E9CDDB /* Build configuration list for PBXNativeTarget "Amplitude_iOS" */;
@@ -756,80 +374,6 @@
 			productReference = 12C972CB24105C3600E9CDDB /* Amplitude.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		12C972D224105C3600E9CDDB /* Amplitude_iOSTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 12C972DF24105C3600E9CDDB /* Build configuration list for PBXNativeTarget "Amplitude_iOSTests" */;
-			buildPhases = (
-				366FB9AD6C9C6115D485E04D /* [CP] Check Pods Manifest.lock */,
-				12C972CF24105C3600E9CDDB /* Sources */,
-				12C972D024105C3600E9CDDB /* Frameworks */,
-				12C972D124105C3600E9CDDB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				12C972D624105C3600E9CDDB /* PBXTargetDependency */,
-			);
-			name = Amplitude_iOSTests;
-			productName = Amplitude_iOSTests;
-			productReference = 12C972D324105C3600E9CDDB /* Amplitude_iOSTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		12C972E624105C6500E9CDDB /* Amplitude_macOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 12C972F824105C6500E9CDDB /* Build configuration list for PBXNativeTarget "Amplitude_macOS" */;
-			buildPhases = (
-				12C972E224105C6500E9CDDB /* Headers */,
-				12C972E324105C6500E9CDDB /* Sources */,
-				12C972E424105C6500E9CDDB /* Frameworks */,
-				12C972E524105C6500E9CDDB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Amplitude_macOS;
-			productName = Amplitude_macOS;
-			productReference = 12C972E724105C6500E9CDDB /* Amplitude.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		12C972EE24105C6500E9CDDB /* Amplitude_macOSTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 12C972FB24105C6500E9CDDB /* Build configuration list for PBXNativeTarget "Amplitude_macOSTests" */;
-			buildPhases = (
-				302251E571E2112125175A67 /* [CP] Check Pods Manifest.lock */,
-				12C972EB24105C6500E9CDDB /* Sources */,
-				12C972EC24105C6500E9CDDB /* Frameworks */,
-				12C972ED24105C6500E9CDDB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				12C972F224105C6500E9CDDB /* PBXTargetDependency */,
-			);
-			name = Amplitude_macOSTests;
-			productName = Amplitude_macOSTests;
-			productReference = 12C972EF24105C6500E9CDDB /* Amplitude_macOSTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		759E937925FBF2BB00BF7C3D /* Amplitude_watchOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 759E938125FBF2BC00BF7C3D /* Build configuration list for PBXNativeTarget "Amplitude_watchOS" */;
-			buildPhases = (
-				759E937525FBF2BB00BF7C3D /* Headers */,
-				759E937625FBF2BB00BF7C3D /* Sources */,
-				759E937725FBF2BB00BF7C3D /* Frameworks */,
-				759E937825FBF2BB00BF7C3D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Amplitude_watchOS;
-			productName = Amplitude_watchOS;
-			productReference = 759E937A25FBF2BB00BF7C3D /* Amplitude.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -839,37 +383,8 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = Amplitude;
 				TargetAttributes = {
-					12C972AE24105B2C00E9CDDB = {
-						CreatedOnToolsVersion = 11.3;
-						LastSwiftMigration = 1240;
-						ProvisioningStyle = Automatic;
-					};
-					12C972B624105B2C00E9CDDB = {
-						CreatedOnToolsVersion = 11.3;
-						DevelopmentTeam = 58E7PCQE77;
-						ProvisioningStyle = Automatic;
-					};
 					12C972CA24105C3600E9CDDB = {
 						CreatedOnToolsVersion = 11.3;
-						LastSwiftMigration = 1240;
-						ProvisioningStyle = Automatic;
-					};
-					12C972D224105C3600E9CDDB = {
-						CreatedOnToolsVersion = 11.3;
-						DevelopmentTeam = 58E7PCQE77;
-						ProvisioningStyle = Manual;
-					};
-					12C972E624105C6500E9CDDB = {
-						CreatedOnToolsVersion = 11.3;
-						LastSwiftMigration = 1240;
-						ProvisioningStyle = Automatic;
-					};
-					12C972EE24105C6500E9CDDB = {
-						CreatedOnToolsVersion = 11.3;
-						ProvisioningStyle = Automatic;
-					};
-					759E937925FBF2BB00BF7C3D = {
-						CreatedOnToolsVersion = 12.4;
 						LastSwiftMigration = 1240;
 						ProvisioningStyle = Automatic;
 					};
@@ -891,33 +406,11 @@
 			projectRoot = "";
 			targets = (
 				12C972CA24105C3600E9CDDB /* Amplitude_iOS */,
-				12C972D224105C3600E9CDDB /* Amplitude_iOSTests */,
-				12C972AE24105B2C00E9CDDB /* Amplitude_tvOS */,
-				12C972B624105B2C00E9CDDB /* Amplitude_tvOSTests */,
-				12C972E624105C6500E9CDDB /* Amplitude_macOS */,
-				12C972EE24105C6500E9CDDB /* Amplitude_macOSTests */,
-				759E937925FBF2BB00BF7C3D /* Amplitude_watchOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		12C972AD24105B2C00E9CDDB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				58E4B1BD287F62C3007AC408 /* AmazonRootCA1.cer in Resources */,
-				DC927E972616400800A708B0 /* ComodoRsaDomainValidationCA.der in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		12C972B524105B2C00E9CDDB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		12C972C924105C3600E9CDDB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -927,146 +420,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		12C972D124105C3600E9CDDB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		12C972E524105C6500E9CDDB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				58E4B1BE287F62C3007AC408 /* AmazonRootCA1.cer in Resources */,
-				DC927E982616400800A708B0 /* ComodoRsaDomainValidationCA.der in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		12C972ED24105C6500E9CDDB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		759E937825FBF2BB00BF7C3D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				58E4B1BF287F62C3007AC408 /* AmazonRootCA1.cer in Resources */,
-				DC927E992616400800A708B0 /* ComodoRsaDomainValidationCA.der in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		1C49508448E694B480BADCCC /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-shared-Amplitude_tvOSTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		302251E571E2112125175A67 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-shared-Amplitude_macOSTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		366FB9AD6C9C6115D485E04D /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-shared-Amplitude_iOSTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		12C972AB24105B2C00E9CDDB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				759E941125FBFE7800BF7C3D /* AMPBackgroundNotifier.m in Sources */,
-				1279FA6F2525949D003DCE07 /* ISPCertificatePinning.m in Sources */,
-				582516E828C048E700ECAD0D /* AMPIngestionMetadata.m in Sources */,
-				581FCD942A4D2A5C00AB0626 /* UIViewController+AMPScreen.m in Sources */,
-				3EF608F02726256800133703 /* AMPMiddlewareRunner.m in Sources */,
-				1279F91A25244E8E003DCE07 /* AMPUtils.m in Sources */,
-				3EF6090327267C9800133703 /* AMPMiddleware.m in Sources */,
-				1279F92625244E8E003DCE07 /* AMPDatabaseHelper.m in Sources */,
-				D00A34E8298DA0EC00BA484F /* AMPEventUtils.m in Sources */,
-				1279F92425244E8E003DCE07 /* AMPConstants.m in Sources */,
-				D00A34E4298DA0EC00BA484F /* AMPIdentifyInterceptor.m in Sources */,
-				1279F90F25244E8E003DCE07 /* AMPConfigManager.m in Sources */,
-				1279F92225244E8E003DCE07 /* Amplitude.m in Sources */,
-				1279F91B25244E8E003DCE07 /* AMPIdentify.m in Sources */,
-				1279F92525244E8E003DCE07 /* AMPDeviceInfo.m in Sources */,
-				1279F91D25244E8E003DCE07 /* AMPTrackingOptions.m in Sources */,
-				1279FA782525949D003DCE07 /* ISPPinnedNSURLSessionDelegate.m in Sources */,
-				3E2411ED26F9A46500793829 /* AMPPlan.m in Sources */,
-				58B7FAD12A3CDC7E00CC5BB4 /* AMPDefaultTrackingOptions.m in Sources */,
-				3EF608D92720F64500133703 /* AMPServerZoneUtil.m in Sources */,
-				1279F91C25244E8E003DCE07 /* AMPRevenue.m in Sources */,
-				1279F91F25244E8E003DCE07 /* AMPURLSession.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		12C972B324105B2C00E9CDDB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		12C972C724105C3600E9CDDB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1096,242 +452,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		12C972CF24105C3600E9CDDB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		12C972E324105C6500E9CDDB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				759E940925FBFE7700BF7C3D /* AMPBackgroundNotifier.m in Sources */,
-				1279FA702525949D003DCE07 /* ISPCertificatePinning.m in Sources */,
-				582516E928C048E700ECAD0D /* AMPIngestionMetadata.m in Sources */,
-				581FCD952A4D2A5C00AB0626 /* UIViewController+AMPScreen.m in Sources */,
-				3EF608F12726256800133703 /* AMPMiddlewareRunner.m in Sources */,
-				1279F93825244E8F003DCE07 /* AMPUtils.m in Sources */,
-				3EF6090427267C9800133703 /* AMPMiddleware.m in Sources */,
-				1279F94425244E8F003DCE07 /* AMPDatabaseHelper.m in Sources */,
-				D00A34E9298DA0EC00BA484F /* AMPEventUtils.m in Sources */,
-				1279F94225244E8F003DCE07 /* AMPConstants.m in Sources */,
-				D00A34E5298DA0EC00BA484F /* AMPIdentifyInterceptor.m in Sources */,
-				1279F92D25244E8F003DCE07 /* AMPConfigManager.m in Sources */,
-				1279F94025244E8F003DCE07 /* Amplitude.m in Sources */,
-				1279F93925244E8F003DCE07 /* AMPIdentify.m in Sources */,
-				1279F94325244E8F003DCE07 /* AMPDeviceInfo.m in Sources */,
-				1279F93B25244E8F003DCE07 /* AMPTrackingOptions.m in Sources */,
-				1279FA792525949D003DCE07 /* ISPPinnedNSURLSessionDelegate.m in Sources */,
-				3E2411EE26F9A46500793829 /* AMPPlan.m in Sources */,
-				58B7FAD22A3CDC7E00CC5BB4 /* AMPDefaultTrackingOptions.m in Sources */,
-				3EF608DA2720F64500133703 /* AMPServerZoneUtil.m in Sources */,
-				1279F93A25244E8F003DCE07 /* AMPRevenue.m in Sources */,
-				1279F93D25244E8F003DCE07 /* AMPURLSession.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		12C972EB24105C6500E9CDDB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		759E937625FBF2BB00BF7C3D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				759E93DD25FBF6F700BF7C3D /* AMPBackgroundNotifier.m in Sources */,
-				759E939025FBF3DC00BF7C3D /* AMPConfigManager.m in Sources */,
-				582516EA28C048E700ECAD0D /* AMPIngestionMetadata.m in Sources */,
-				581FCD962A4D2A5C00AB0626 /* UIViewController+AMPScreen.m in Sources */,
-				3EF608F22726256800133703 /* AMPMiddlewareRunner.m in Sources */,
-				759E939125FBF3DC00BF7C3D /* AMPConstants.m in Sources */,
-				759E939225FBF3DC00BF7C3D /* AMPDatabaseHelper.m in Sources */,
-				759E939325FBF3DC00BF7C3D /* AMPDeviceInfo.m in Sources */,
-				D00A34EA298DA0EC00BA484F /* AMPEventUtils.m in Sources */,
-				3EF6090527267C9800133703 /* AMPMiddleware.m in Sources */,
-				D00A34E6298DA0EC00BA484F /* AMPIdentifyInterceptor.m in Sources */,
-				759E939425FBF3DC00BF7C3D /* AMPIdentify.m in Sources */,
-				759E939525FBF3DC00BF7C3D /* Amplitude.m in Sources */,
-				759E939625FBF3DC00BF7C3D /* AMPRevenue.m in Sources */,
-				759E939725FBF3DC00BF7C3D /* AMPTrackingOptions.m in Sources */,
-				759E939925FBF3DC00BF7C3D /* AMPURLSession.m in Sources */,
-				759E939A25FBF3DC00BF7C3D /* AMPUtils.m in Sources */,
-				759E939B25FBF3DC00BF7C3D /* ISPCertificatePinning.m in Sources */,
-				58B7FAD32A3CDC7E00CC5BB4 /* AMPDefaultTrackingOptions.m in Sources */,
-				3E2411EF26F9A46500793829 /* AMPPlan.m in Sources */,
-				3EF608DB2720F64500133703 /* AMPServerZoneUtil.m in Sources */,
-				759E939D25FBF3DC00BF7C3D /* ISPPinnedNSURLSessionDelegate.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		12C972BA24105B2C00E9CDDB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 12C972AE24105B2C00E9CDDB /* Amplitude_tvOS */;
-			targetProxy = 12C972B924105B2C00E9CDDB /* PBXContainerItemProxy */;
-		};
-		12C972D624105C3600E9CDDB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 12C972CA24105C3600E9CDDB /* Amplitude_iOS */;
-			targetProxy = 12C972D524105C3600E9CDDB /* PBXContainerItemProxy */;
-		};
-		12C972F224105C6500E9CDDB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 12C972E624105C6500E9CDDB /* Amplitude_macOS */;
-			targetProxy = 12C972F124105C6500E9CDDB /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		12C972C124105B2D00E9CDDB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = Framework/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = Framework/Amplitude.modulemap;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.amplitude.Amplitude;
-				PRODUCT_NAME = Amplitude;
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		12C972C224105B2D00E9CDDB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_STYLE = Automatic;
-				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = Framework/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = Framework/Amplitude.modulemap;
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.amplitude.Amplitude;
-				PRODUCT_NAME = Amplitude;
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		12C972C424105B2D00E9CDDB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4D8EA610D8DF8BD11DB40E7A /* Pods-shared-Amplitude_tvOSTests.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_STYLE = Automatic;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = 58E7PCQE77;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.amplitude.Amplitude-tvOSTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = appletvos;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-			};
-			name = Debug;
-		};
-		12C972C524105B2D00E9CDDB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 09EB6B3E86B6394014048162 /* Pods-shared-Amplitude_tvOSTests.release.xcconfig */;
-			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_STYLE = Automatic;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 58E7PCQE77;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.amplitude.Amplitude-tvOSTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = appletvos;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-			};
-			name = Release;
-		};
 		12C972DD24105C3600E9CDDB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1412,305 +535,6 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		12C972E024105C3600E9CDDB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 70CE71E7AEFA4FE3E4F565AD /* Pods-shared-Amplitude_iOSTests.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
-				CODE_SIGN_STYLE = Manual;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = 58E7PCQE77;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = Tests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.amplitude.Amplitude-iOSTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		12C972E124105C3600E9CDDB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C55E7B2C7CB09D0EDC07910 /* Pods-shared-Amplitude_iOSTests.release.xcconfig */;
-			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
-				CODE_SIGN_STYLE = Manual;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 58E7PCQE77;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = Tests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.amplitude.Amplitude-iOSTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		12C972F924105C6500E9CDDB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
-				INFOPLIST_FILE = Framework/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				MODULEMAP_FILE = Framework/Amplitude.modulemap;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.amplitude.Amplitude;
-				PRODUCT_NAME = Amplitude;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		12C972FA24105C6500E9CDDB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
-				INFOPLIST_FILE = Framework/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				MODULEMAP_FILE = Framework/Amplitude.modulemap;
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.amplitude.Amplitude;
-				PRODUCT_NAME = Amplitude;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		12C972FC24105C6500E9CDDB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F7002FB71B21CB2ABA065F1 /* Pods-shared-Amplitude_macOSTests.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = "";
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.amplitude.Amplitude-macOSTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-			};
-			name = Debug;
-		};
-		12C972FD24105C6500E9CDDB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 01E5E27777EE3748AD590817 /* Pods-shared-Amplitude_macOSTests.release.xcconfig */;
-			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = "";
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.amplitude.Amplitude-macOSTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-			};
-			name = Release;
-		};
-		759E937F25FBF2BC00BF7C3D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = Framework/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = Framework/Amplitude.modulemap;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.amplitude.Amplitude;
-				PRODUCT_NAME = Amplitude;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 3.0;
-			};
-			name = Debug;
-		};
-		759E938025FBF2BC00BF7C3D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_STYLE = Automatic;
-				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = Framework/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = Framework/Amplitude.modulemap;
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.amplitude.Amplitude;
-				PRODUCT_NAME = Amplitude;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
 			name = Release;
 		};
@@ -1842,65 +666,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		12C972C024105B2D00E9CDDB /* Build configuration list for PBXNativeTarget "Amplitude_tvOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				12C972C124105B2D00E9CDDB /* Debug */,
-				12C972C224105B2D00E9CDDB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		12C972C324105B2D00E9CDDB /* Build configuration list for PBXNativeTarget "Amplitude_tvOSTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				12C972C424105B2D00E9CDDB /* Debug */,
-				12C972C524105B2D00E9CDDB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		12C972DC24105C3600E9CDDB /* Build configuration list for PBXNativeTarget "Amplitude_iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				12C972DD24105C3600E9CDDB /* Debug */,
 				12C972DE24105C3600E9CDDB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		12C972DF24105C3600E9CDDB /* Build configuration list for PBXNativeTarget "Amplitude_iOSTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				12C972E024105C3600E9CDDB /* Debug */,
-				12C972E124105C3600E9CDDB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		12C972F824105C6500E9CDDB /* Build configuration list for PBXNativeTarget "Amplitude_macOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				12C972F924105C6500E9CDDB /* Debug */,
-				12C972FA24105C6500E9CDDB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		12C972FB24105C6500E9CDDB /* Build configuration list for PBXNativeTarget "Amplitude_macOSTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				12C972FC24105C6500E9CDDB /* Debug */,
-				12C972FD24105C6500E9CDDB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		759E938125FBF2BC00BF7C3D /* Build configuration list for PBXNativeTarget "Amplitude_watchOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				759E937F25FBF2BC00BF7C3D /* Debug */,
-				759E938025FBF2BC00BF7C3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
