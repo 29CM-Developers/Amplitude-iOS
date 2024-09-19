@@ -189,7 +189,6 @@
 			isa = PBXGroup;
 			children = (
 				DC927E942616400800A708B0 /* Resources */,
-				759E93D925FBF6C600BF7C3D /* watchOS */,
 				1279F8BF25244D78003DCE07 /* Amplitude */,
 			);
 			path = Sources;
@@ -274,13 +273,6 @@
 				58B7FACA2A3BD71F00CC5BB4 /* AMPDefaultTrackingOptions.h */,
 			);
 			path = Public;
-			sourceTree = "<group>";
-		};
-		759E93D925FBF6C600BF7C3D /* watchOS */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = watchOS;
 			sourceTree = "<group>";
 		};
 		DC927E942616400800A708B0 /* Resources */ = {
